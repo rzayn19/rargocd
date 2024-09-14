@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: racr77.azurecr.io/rzayn19/rargocd/nginx
+    image: racr77.azurecr.io/rzayn19/rargocd
