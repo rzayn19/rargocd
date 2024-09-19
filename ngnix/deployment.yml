@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: racr77.azurecr.io/rzayn19/rargocd:44
+    image: racr77.azurecr.io/rzayn19/rargocd:45
   imagePullSecrets:
   - name: acr-secret
