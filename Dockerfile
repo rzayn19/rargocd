@@ -8,4 +8,4 @@ COPY index.html /usr/share/nginx/html
 EXPOSE 80
 
 # Start NGINX when the container launches
-ENTRYPOINT ["nginx", "-g", "daemon off;"]
+ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]
